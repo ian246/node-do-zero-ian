@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Node video ian ",
+    "describe": "1olá",
+    "duration": 120
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/64355d3f-08f9-4ccb-bd0e-0e8d340ffc1c
+Content-Type: application/json
+
+{
+    "title": "video Ian Karel",
+    "describe": "esse video é maneiro",
+    "duration": 128
+}
+
+###
+
+DELETE http://localhost:3333/videos/bd016b1c-3e0e-4eca-ad0b-b5cbfe5587af
